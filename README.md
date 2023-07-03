@@ -5,6 +5,24 @@ It's a deep learning LSTM model which can detect emotion from user's given audio
 
 I have developed a Deep Learning AI model (LSTM) capable of detecting emotions from audio clips. The model recognizes the following emotions: 'happy', 'sad', 'neutral', 'surprise', 'fear', 'angry', and 'disgust', resulting in a total of 7 categories.
 
+## Requirements
+
+Make sure you have the following dependencies installed:
+
+- Python 3.8 or later
+- NumPy
+- librosa
+- TensorFlow
+- Keras
+- Matplotlib
+- Seaborn
+
+You can install these dependencies by running the following command:
+
+```bash
+pip install numpy librosa tensorflow keras matplotlib seaborn
+```
+
 ## Feature Extraction
 
 To extract features from the audio files, I employed the following Python function:

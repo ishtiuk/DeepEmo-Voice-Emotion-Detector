@@ -1,7 +1,7 @@
 # DeepEmo-Voice-Emotion-Detector
 It's a deep learning LSTM model which can detect emotion from user's given audio clip.
 
-# Emotion Detection from Audio Clips
+## Emotion Detection from Audio Clips
 
 I have developed a Deep Learning AI model (LSTM) capable of detecting emotions from audio clips. The model recognizes the following emotions: 'happy', 'sad', 'neutral', 'surprise', 'fear', 'angry', and 'disgust', resulting in a total of 7 categories.
 
@@ -59,3 +59,8 @@ def predict_single_audio(path):
 ```
 
 Feel free to utilize this function to predict the emotion from your audio clips!
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/ishtiuk/DeepEmo-Voice-Emotion-Detector/blob/main/LICENSE).
+

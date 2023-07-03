@@ -5,6 +5,20 @@ It's a deep learning LSTM model which can detect emotion from user's given audio
 
 I have developed a Deep Learning AI model (LSTM) capable of detecting emotions from audio clips. The model recognizes the following emotions: 'happy', 'sad', 'neutral', 'surprise', 'fear', 'angry', and 'disgust', resulting in a total of 7 categories.
 
+## Dataset
+
+I have used the TESS (Toronto Emotional Speech Set) dataset from Kaggle. You can access the dataset [here](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess). The dataset contains a total of 2800 audio files. However, I have created a total of 11200 augmented audio files using data augmentation techniques.
+
+## Data Augmentation
+
+To enhance the dataset, I have performed data augmentation using the following Python functions:
+
+- `noise(data)`: Adds random noise to the audio data.
+- `stretch(data, rate=0.8)`: Stretches the audio data by a certain rate.
+- `pitch(data, sampling_rate, pitch_factor=0.7)`: Changes the pitch of the audio data.
+
+These functions have been utilized to generate additional audio samples and improve the model's performance.
+
 ## Requirements
 
 Make sure you have the following dependencies installed:
